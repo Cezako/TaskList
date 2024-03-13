@@ -3,7 +3,7 @@ import React from 'react'
 const ListItem = ({ item, dispatch }) => {
     const handleDeleteItem = () => {
         dispatch({ type: 'DELETE_ITEM', payload: item.id })
-    };
+    }
 
     return (
         <li>
